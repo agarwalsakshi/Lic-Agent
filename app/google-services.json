@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "476802969301",
+    "firebase_url": "https://lic-agent-1994.firebaseio.com",
+    "project_id": "lic-agent-1994",
+    "storage_bucket": "lic-agent-1994.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476802969301:android:6bdce4a2182077e8",
+        "android_client_info": {
+          "package_name": "com.agarwalapps.licagent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476802969301-56e1o6sm9i12fhh439fqkadag8on1n7b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.agarwalapps.licagent",
+            "certificate_hash": "0ccaeeaf65e31c208cd510eaf3c9f8c4df9c3da1"
+          }
+        },
+        {
+          "client_id": "476802969301-qn0togs8a937q190abs14tgm3beor2um.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ7Z2vkIEmtVQdqp0Osp3gIqQTJ225MNE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476802969301-qn0togs8a937q190abs14tgm3beor2um.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
