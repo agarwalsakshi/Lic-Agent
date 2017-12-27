@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="11"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.agarwalapps.licagent.view.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/welcome_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textSize="50sp"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/tag_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lic Agent work made easy"
+            android:textColor="@color/colorAccent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/login_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/mobile_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColorHint="@color/colorAccent"
+            android:background="@drawable/login_edittext_background"
+            android:hint="mobile number"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/otp_edittxt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColorHint="@color/colorAccent"
+            android:background="@drawable/login_edittext_background"
+            android:hint="otp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:inputType="number"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/login_button_background"
+            android:text="send otp"
+            android:layout_marginTop="64dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorPrimary"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By signing up, you agree to our "/>
+        <TextView
+            android:id="@+id/terms_and_condition_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Terms and Conditions"/>
+
+    </LinearLayout>
+    </LinearLayout>
